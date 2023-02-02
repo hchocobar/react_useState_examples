@@ -6,7 +6,7 @@ function DropDownList() {
     const [selected, setSelected] = useState(options[0]);
 
     return (
-        <div className="container-sm">
+        <div className="container-sm my-5">
             <div className="input-group">
                 <span className="input-group-text">DropDownList</span>
                 <select onChange={(e) => setSelected(e.target.value)} value={selected} class="form-select">
